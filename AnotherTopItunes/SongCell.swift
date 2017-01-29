@@ -10,7 +10,7 @@ import UIKit
 
 class SongCell: UITableViewCell {
 
-    @IBOutlet weak var songImage: UIImageView!
+    @IBOutlet weak var songImage: CustomImageView!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var artist: UILabel!
     @IBOutlet weak var price: UIButton!

@@ -18,6 +18,7 @@
 		BF048CD41E3CE7A700682763 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF048CD31E3CE7A700682763 /* Song.swift */; };
 		BF048CD61E3CEBB300682763 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF048CD51E3CEBB300682763 /* UIView.swift */; };
 		BF048CD81E3CEC5800682763 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF048CD71E3CEC5800682763 /* UIImageView.swift */; };
+		BF3BD83B1E3E27AC00D117AD /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3BD83A1E3E27AC00D117AD /* CustomImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		BF048CD31E3CE7A700682763 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		BF048CD51E3CEBB300682763 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		BF048CD71E3CEC5800682763 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		BF3BD83A1E3E27AC00D117AD /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				BF048CDA1E3CF19C00682763 /* Entity */,
 				BF048CD91E3CF19100682763 /* CoreGraphic */,
 				BF048CDC1E3CF1C900682763 /* Supporting Files */,
+				BF3BD83A1E3E27AC00D117AD /* CustomImageView.swift */,
 			);
 			path = AnotherTopItunes;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF048CBE1E3CE4AC00682763 /* ViewController.swift in Sources */,
+				BF3BD83B1E3E27AC00D117AD /* CustomImageView.swift in Sources */,
 				BF048CCF1E3CE52900682763 /* SongCell.swift in Sources */,
 				BF048CD81E3CEC5800682763 /* UIImageView.swift in Sources */,
 				BF048CD21E3CE74B00682763 /* DataSource.swift in Sources */,

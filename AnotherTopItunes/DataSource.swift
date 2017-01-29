@@ -61,14 +61,14 @@ extension DataSource: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        //        guard let name = songs[indexPath.row].name, let price = songs[indexPath.row].price else { return nil }
-        
         let cell = tableView.dequeueReusableCell(withIdentifier: "SongCell", for: indexPath) as! SongCell
         let song = songs[indexPath.row]
-        
+//        cell.songImage.image = nil
+//        cell.tag = indexPath.row
         cell.title.text = "\(song.name!)"
         cell.artist.text = "\(song.artist!)"
         cell.price.setTitle("\(song.price!)", for: .normal)
+        
         cell.songImage.loadImageUsingCacheWithUrlString(urlString: song.imageUrl!)
         
         return cell

@@ -20,7 +20,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="63.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mpD-uI-7kL">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mpD-uI-7kL" customClass="CustomImageView" customModule="AnotherTopItunes" customModuleProvider="target">
                         <rect key="frame" x="12" y="6" width="50" height="50"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="50" id="PtK-fq-yAV"/>
@@ -67,7 +67,7 @@
             <connections>
                 <outlet property="artist" destination="7aN-Ei-Qgn" id="MMj-gS-CaQ"/>
                 <outlet property="price" destination="zHC-NN-eyC" id="rhT-MT-hp7"/>
-                <outlet property="songImage" destination="mpD-uI-7kL" id="c0s-bE-E9T"/>
+                <outlet property="songImage" destination="mpD-uI-7kL" id="y5w-NK-QuE"/>
                 <outlet property="title" destination="sSf-az-bwA" id="Bcd-fe-b86"/>
             </connections>
             <point key="canvasLocation" x="34" y="70"/>
